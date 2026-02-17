@@ -27,7 +27,7 @@ header.legacy {
 header.beta {
     background:
         linear-gradient(to bottom, rgba(10, 26, 47, 0) 60%, var(--bg) 100%),
-        url('/assets/images/bg.png');
+        url('assets/images/bg.png');
     background-size: cover;
     background-position: center;
 }
