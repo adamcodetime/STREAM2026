@@ -6,7 +6,6 @@ toggle.addEventListener("click", () => {
     header.classList.toggle("beta");
     header.classList.toggle("legacy");
 
-    // Update icon based on mode
     if (header.classList.contains("beta")) {
         icon.classList.remove("waves-icon");
         icon.classList.add("circle-icon");
