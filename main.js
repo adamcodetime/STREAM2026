@@ -14,3 +14,17 @@ toggle.addEventListener("click", () => {
         icon.classList.add("waves-icon");
     }
 });
+
+window.addEventListener("load", () => {
+    const popup = document.getElementById("popup");
+    const closeBtn = document.getElementById("closePopup");
+
+    popup.classList.add("show");
+    document.body.classList.add("body-lock");
+
+
+    closeBtn.addEventListener("click", () => {
+        popup.classList.remove("show");
+        document.body.classList.remove("body-lock");
+    });
+});
